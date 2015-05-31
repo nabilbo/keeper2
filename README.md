@@ -33,6 +33,7 @@ The same as Step 2 except for steps **7, 8, 9** and **13** :
 * 7.Enter a friendly name for the application, for example `TheFilesKeeper-WebAPI`, select "Web Application and/or Web API", and click next.
 * 8.For the sign-on URL, enter the base URL for the sample, which is by default  `https://localhost:44318/` .
 * 9.For the App ID URI, enter  `https://<your_tenant_name>/TheFilesKeeper-WebAPI`, replacing  <your_tenant_name>  with the name of your Azure AD tenant.
+* 13.Edit the Manifest File to Enable the OAuth2 implicit grant : search for the  oauth2AllowImplicitFlow  property. You will find that it is set to  false ; change it to  true  and save the file. You have also to declare the Web Api Sample as ressource for the Outlook App : Edit 'KnowClientApplications' section to add the Outlook App Client ID (Step 2.11). For example :  '"knownClientApplications": ["1caf8bf7-7a79-4e6e-9309-637372852ca6"],'
 
 
 
