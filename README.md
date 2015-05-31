@@ -72,4 +72,4 @@ var ENDPOINTS = {
 var STS_ENDPOINT = "https://localhost:44318/api/azure/keystone"; 
 ```
 
-3. Run the app **F5**. Thats All !
+3. Run the app **F5**. That's All !
