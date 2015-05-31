@@ -99,13 +99,14 @@ Coming soon.
 ## About the Code
 We will only describe the Outlook App Source Code :
 
-* AppCompose : contains the Outlook App used to compose an email and save attachment into the external Storage.
-* AppRead : contains the Outlook App used to read attachment files.
-* Common : contains common features, ressources, ...
- * Services : web api consumption
- * Translations : contains language ressources in French and English.
- * AngularApp.js : contains the angular app initialization, and routes.
- * Config.js : app configuration.
+root
+* /AppCompose/ : contains the Outlook App used to compose an email and save attachment into the external Storage.
+* /AppRead/ : contains the Outlook App used to read attachment files.
+* /Common/ : contains common features, ressources, ...
+ * /Services/ : web api consumption
+ * /Translations/ : contains language ressources in French and English.
+ * /AngularApp.js : contains the angular app initialization, and routes.
+ * /Config.js : app configuration.
  
 ## Licence
 Coming soon.
