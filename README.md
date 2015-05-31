@@ -1,5 +1,4 @@
-## TheFilesKeeper
-
+Welcome
 
 ## How To Run This Sample
 
@@ -40,8 +39,8 @@ All done! Before moving on to the next step, you need to find the Client ID of y
 * 12.Find the Client ID value and copy it to the clipboard.
 
 
-### Step 3: Enable the OAuth2 implicit grant for your application
-By default, applications provisioned in Azure AD are not enabled to use the OAuth2 implicit grant. In order to run this sample, you need to explicitly opt in.
+### Step 3: Enable the OAuth2 implicit grant for the Outlook App and the Web API Sample
+By default, applications provisioned in Azure AD are not enabled to use the OAuth2 implicit grant. In order to run this sample, you need to explicitly opt in for the Outlook App and also for the Web API Sample.
 
 * 1.From the former steps, your browser should still be on the Azure management portal - and specifically, displaying the Configure tab of your application's entry.
 * 2.Using the Manage Manifest button in the drawer, download the manifest file for the application and save it to disk.
