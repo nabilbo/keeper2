@@ -110,7 +110,7 @@ these ressources have been used to develope theFilesKeeper :
 
 
 ### Libraries
-* [Adal.js](https://github.com/AzureADSamples/SinglePageApp-AngularJS-DotNet "Adal.js")
+* [Adal.js](https://github.com/AzureAD/azure-activedirectory-library-for-js "Adal.js")
 * [angular.js](https://angularjs.org/ "angular.js")
 * [angular-file-upload](https://github.com/nervgh/angular-file-upload "https://github.com/nervgh/angular-file-upload")
 * [boostrap.css](http://getbootstrap.com/ "boostrap.css")
