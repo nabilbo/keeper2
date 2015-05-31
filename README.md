@@ -20,29 +20,21 @@ From your shell or command line:  `git clone https://github.com/nabilbo/keeper.g
 * 8.For the sign-on URL, enter the base URL for the sample, which is by default  `https://localhost:44305/` .
 * 9.For the App ID URI, enter  `https://<your_tenant_name>/TheFilesKeeper-OutlookAapp`, replacing  <your_tenant_name>  with the name of your Azure AD tenant.
 * 10.Edit 
-
-All done! Before moving on to the next step, you need to find the Client ID of your application.
 * 11.While still in the Azure portal, click the Configure tab of your application.
 * 12.Find the Client ID value and copy it to the clipboard.
+* 13. Download the Manifest file
+* 14. Enable the OAuth2 implicit grant for the App : Search for the  oauth2AllowImplicitFlow  property. You will find that it is set to  false ; change it to  true  and save the file.
+* 15. Upload the modified Manifest file.
 
+All done! Before moving on to the next step, you need to find the Client ID of your application.
 
 ### Step 3 : Register the Web Api Sample with your Azure AD tenant
 
-The same as Step 2 for sub-steps 1 to 6.
+The same as Step 2 except for steps 7, 8, 9 :
 * 7.Enter a friendly name for the application, for example `TheFilesKeeper-WebAPI`, select "Web Application and/or Web API", and click next.
 * 8.For the sign-on URL, enter the base URL for the sample, which is by default  `https://localhost:44318/` .
 * 9.For the App ID URI, enter  `https://<your_tenant_name>/TheFilesKeeper-WebAPI`, replacing  <your_tenant_name>  with the name of your Azure AD tenant.
-* 10.Edit 
-
-All done! Before moving on to the next step, you need to find the Client ID of your application.
-* 11.While still in the Azure portal, click the Configure tab of your application.
-* 12.Find the Client ID value and copy it to the clipboard.
 
 
-### Step 3: Enable the OAuth2 implicit grant for the Outlook App and the Web API Sample
-By default, applications provisioned in Azure AD are not enabled to use the OAuth2 implicit grant. In order to run this sample, you need to explicitly opt in for the Outlook App and also for the Web API Sample.
 
-* 1.From the former steps, your browser should still be on the Azure management portal - and specifically, displaying the Configure tab of your application's entry.
-* 2.Using the Manage Manifest button in the drawer, download the manifest file for the application and save it to disk.
-* 3.Open the manifest file with a text editor. Search for the  oauth2AllowImplicitFlow  property. You will find that it is set to  false ; change it to  true  and save the file.
-* 4.Using the Manage Manifest button, upload the updated manifest file. Save the configuration of the app.
+### Step 4: 
