@@ -1,5 +1,5 @@
 
-This sample demonstrates how to store Office 365 Outlook file attachments on a custom Web API Storage.
+This sample demonstrates how to store Outlook attachment files of Office 365  on a custom storage.
 
 This sample contains two codes sources:
 * an Office 365 Outlook App compatible with Office 2013 Client and Office Web App.
