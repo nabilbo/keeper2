@@ -99,7 +99,6 @@ Coming soon.
 ## About the Code
 We will only describe the Outlook App Source Code :
 
-root
 * /AppCompose/ : contains the Outlook App used to compose an email and save attachment into the external Storage.
 * /AppRead/ : contains the Outlook App used to read attachment files.
 * /Common/ : contains common features, ressources, ...
