@@ -41,7 +41,7 @@ The same as Step 2 except for steps **7, 8, 9** and **13** :
 
 * 1. Open the visual studio solution : `[VS_SOLUTION]\TheFilesKeeper.Outlook.App\TheFilesKeeper.Outlook.App.sln`
 * 2. Edit the config.js `[VS_SOLUTION]\TheFilesKeeper.Outlook.App\TheFilesKeeper.Outlook.AppWeb\Common\config.js`
-to run this sample, on only need to modify the lines flaged **"edit here"**
+to run this sample, you only need to modify the lines flaged **"edit here"**
 
 
 ```javascript
@@ -72,3 +72,4 @@ var ENDPOINTS = {
 var STS_ENDPOINT = "https://localhost:44318/api/azure/keystone"; 
 ```
 
+3. Run the app **F5**. Thats All !
