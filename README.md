@@ -103,13 +103,20 @@ Coming soon.
 Coming soon.
 
 ## Ressources
+these ressources have been used to develope theFilesKeeper :
 
 ### Code Samples
-
-these sample code have been used to develope theFilesKeeper :
 * [SinglePageApp-DotNet](https://github.com/AzureADSamples/SinglePageApp-AngularJS-DotNet "SinglePageApp-DotNet")
 
 
 ### Libraries
+* [Adal.js](https://github.com/AzureADSamples/SinglePageApp-AngularJS-DotNet "Adal.js")
+* [angular.js](https://angularjs.org/ "angular.js")
+* [angular-file-upload](https://github.com/nervgh/angular-file-upload "https://github.com/nervgh/angular-file-upload")
+* [boostrap.css](http://getbootstrap.com/ "boostrap.css")
+* [animate.css](https://daneden.github.io/animate.css/ "animate.css")
+
+
+
 
 
