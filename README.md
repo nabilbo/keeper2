@@ -13,7 +13,7 @@ Every Azure subscription has an associated Azure Active Directory tenant. If you
 
 ## How To Run This Sample
 
-Follow Steps 1 to 4 :
+Follow Steps 1 to 4.
 
 ### Step 1: Clone or download this repository
 From your shell or command line:  `git clone https://github.com/nabilbo/keeper.git`
