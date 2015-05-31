@@ -1,5 +1,8 @@
 Welcome
 
+
+## Prerequisite
+
 ## How To Run This Sample
 
 
@@ -73,3 +76,12 @@ var STS_ENDPOINT = "https://localhost:44318/api/azure/keystone";
 ```
 
 3. Run the app **F5**. That's All !
+
+
+## How to deploy it to Azure
+Coming soon.
+
+
+
+
+## About the Code
