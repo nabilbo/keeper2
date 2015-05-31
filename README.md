@@ -2,14 +2,14 @@
 This sample demonstrates how to store Outlook mail attachment files of Office 365  on a custom storage.
 
 This sample contains two codes sources:
-* an Office 365 Outlook App compatible with Office 2013 Client and Office Web App.
-* an ASP.NET Web API backend used to store Outlook attachment files. The API Backend is used only as an example. It's a fake API.
+* An Office 365 Outlook App compatible with Office 2013 Client and Office Web App.
+* An ASP.NET Web API backend used to store Outlook attachment files. The API Backend is used only as an example. It's a fake API rovided for demo purpose.
 
 
 ## Prerequisite
 
 To run this sample you will need:
-* Visual Studio 2013
+* Microsoft Visual Studio 2013 R4
 * An Azure subscription (a free trial is sufficient)
 
 Every Azure subscription has an associated Azure Active Directory tenant. If you don't already have an Azure subscription, you can get a free subscription by signing up at http://www.windowsazure.com. All of the Azure AD features used by this sample are available free of charge.
@@ -48,7 +48,7 @@ The same as Step 2 except for steps **7, 8, 9** and **13** :
 * 7.Enter a friendly name for the application, for example `TheFilesKeeper-WebAPI`, select "Web Application and/or Web API", and click next.
 * 8.For the sign-on URL, enter the base URL for the sample, which is by default  `https://localhost:44318/` .
 * 9.For the App ID URI, enter  `https://<your_tenant_name>/TheFilesKeeper-WebAPI`, replacing  <your_tenant_name>  with the name of your Azure AD tenant.
-* 13.Edit the Manifest File to Enable the OAuth2 implicit grant : search for the  oauth2AllowImplicitFlow  property. You will find that it is set to  false ; change it to  true  and save the file. You have also to declare the Web Api Sample as ressource for the Outlook App : Edit 'KnowClientApplications' section to add the Outlook App Client ID (Step 2.11). For example :   `"knownClientApplications": ["1caf8bf7-7a79-4e6e-9309-637372852ca6"],`
+* 13.Edit the Manifest File to Enable the OAuth2 implicit grant : search for the  oauth2AllowImplicitFlow  property. Set to  false ; change it to  true  and save the file. You have also to declare the Web Api Sample as ressource for the Outlook App : Edit 'KnowClientApplications' section to add the Outlook App Client ID (Step 2.11). For example :   `"knownClientApplications": ["1caf8bf7-7a79-4e6e-9309-637372852ca6"],`
 
 
 
@@ -97,13 +97,13 @@ Coming soon.
 
 
 ## About the Code
-In this part, we will only describe the Outlook App Source Code :
+We will only describe the Outlook App Source Code :
 
 * AppCompose : contains the Outlook App used to compose an email and save attachment into the external Storage.
 * AppRead : contains the Outlook App used to read attachment files.
 * Common : contains common features, ressources, ...
  * Services : web api consumption
- * Translations : contains language ressources in french and english.
+ * Translations : contains language ressources in French and English.
  * AngularApp.js : contains the angular app initialization, and routes.
  * Config.js : app configuration.
  
@@ -114,7 +114,7 @@ Coming soon.
 these ressources have been used to develope theFilesKeeper :
 
 ### Code Samples
-* [SinglePageApp-DotNet](https://github.com/AzureADSamples/SinglePageApp-AngularJS-DotNet "SinglePageApp-DotNet")
+* [singlePageApp-DotNet](https://github.com/AzureADSamples/SinglePageApp-AngularJS-DotNet "SinglePageApp-DotNet")
 
 ### Libraries
 * [adal.js](https://github.com/AzureAD/azure-activedirectory-library-for-js "Adal.js")
