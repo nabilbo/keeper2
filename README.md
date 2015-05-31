@@ -37,4 +37,32 @@ The same as Step 2 except for steps **7, 8, 9** and **13** :
 
 
 
-### Step 4: 
+### Step 4: Configure the Visual Studio Solution.
+
+* 1.Edit the config.js file
+
+```javascript
+/* The Files Keeper App Configiration */
+
+//STORAGE_PREFIX : prefix used to cache app data and to identify storage URI.
+var STORAGE_PREFIX = "keeper"; // if you change this value, don't forget to also change RegExValue on the Outlook app manifest.xml file.
+
+//OUTLOOK_APP_CLIENT_ID : Outlook App Client ID eg : 'f997c817-0695-4e70-87df-3e9e9e04649a' created at the step 2.11
+OUTLOOK_APP_CLIENT_ID = '00000000-0000-0000-0000-000000000000';
+
+//BACKEND_URI eg : '"https://mytenant.onmicrosoft.com/TheFilesKeeper-WebAPI" created at the step 3.9
+BACKEND_URI= "https://xxxxxxxxxxxxxxxxxxxxx.onmicrosoft.com/TheFilesKeeper-WebAPI"; 
+
+/BACKEND_CLIENT_ID : Web API Sample Client ID eg : 'f997c817-0695-4e70-87df-3e9e9e04649a' created at the step 3.11
+BACKEND_CLIENT_ID = '00000000-0000-0000-0000-000000000000'; 
+
+
+//ENDPOINTS : Service api endpoints
+var ENDPOINTS = {
+    "https://localhost:44318/": BACKEND_URI,
+};
+
+//STS_ENDPOINT : Service api STS_ENDPOINT eg : https://query.microsoft.com/
+var STS_ENDPOINT = "https://localhost:44318/api/azure/keystone"; 
+```
+
