@@ -6,7 +6,7 @@
 
 
 ### Step 1: Clone or download this repository
-From your shell or command line:  git clone https://github.com/keeper
+From your shell or command line:  `git clone https://github.com/nabilbo/keeper.git`
 
 
 ### Step 2: Register the Outlook App with your Azure AD tenant
