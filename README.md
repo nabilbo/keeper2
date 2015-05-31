@@ -17,9 +17,9 @@ From your shell or command line:  `git clone https://github.com/nabilbo/keeper.g
 * 4.Click the Applications tab.
 * 5.In the drawer, click Add.
 * 6.Click "Add an application my organization is developing".
-* 7.Enter a friendly name for the application, for example "TheFilesKeeper-OutlookApp", select "Web Application and/or Web API", and click next.
-* 8.For the sign-on URL, enter the base URL for the sample, which is by default  https://localhost:44305/ .
-* 9.For the App ID URI, enter  https://<your_tenant_name>/TheFilesKeeper-OutlookAapp, replacing  <your_tenant_name>  with the name of your Azure AD tenant.
+* 7.Enter a friendly name for the application, for example `TheFilesKeeper-OutlookApp`, select "Web Application and/or Web API", and click next.
+* 8.For the sign-on URL, enter the base URL for the sample, which is by default  `https://localhost:44305/` .
+* 9.For the App ID URI, enter  `https://<your_tenant_name>/TheFilesKeeper-OutlookAapp`, replacing  <your_tenant_name>  with the name of your Azure AD tenant.
 * 10.Edit 
 
 All done! Before moving on to the next step, you need to find the Client ID of your application.
@@ -30,9 +30,9 @@ All done! Before moving on to the next step, you need to find the Client ID of y
 ### Step 3 : Register the Web Api Sample with your Azure AD tenant
 
 The same as Step 2 for sub-steps 1 to 6.
-* 7.Enter a friendly name for the application, for example "TheFilesKeeper-WebAPI", select "Web Application and/or Web API", and click next.
-* 8.For the sign-on URL, enter the base URL for the sample, which is by default  https://localhost:44318/ .
-* 9.For the App ID URI, enter  https://<your_tenant_name>/TheFilesKeeper-WebAPI, replacing  <your_tenant_name>  with the name of your Azure AD tenant.
+* 7.Enter a friendly name for the application, for example `TheFilesKeeper-WebAPI`, select "Web Application and/or Web API", and click next.
+* 8.For the sign-on URL, enter the base URL for the sample, which is by default  `https://localhost:44318/` .
+* 9.For the App ID URI, enter  `https://<your_tenant_name>/TheFilesKeeper-WebAPI`, replacing  <your_tenant_name>  with the name of your Azure AD tenant.
 * 10.Edit 
 
 All done! Before moving on to the next step, you need to find the Client ID of your application.
