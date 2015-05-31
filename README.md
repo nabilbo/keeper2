@@ -39,8 +39,8 @@ The same as Step 2 except for steps **7, 8, 9** and **13** :
 
 ### Step 4: Configure the Visual Studio Solution.
 
-* 1. Open the visual studio solution : `\TheFilesKeeper.Outlook.App\TheFilesKeeper.Outlook.App.sln`
-* Edit the config.js file
+* 1. Open the visual studio solution : `[VS_SOLUTION]\TheFilesKeeper.Outlook.App\TheFilesKeeper.Outlook.App.sln`
+* 2. Edit the config.js `[VS_SOLUTION]\TheFilesKeeper.Outlook.App\TheFilesKeeper.Outlook.AppWeb\Common\config.js`
 
 ```javascript
 /* The Files Keeper App configuration */
@@ -51,16 +51,15 @@ var STORAGE_PREFIX = "keeper";
 
 // OUTLOOK_APP_CLIENT_ID : Outlook App Client ID eg : 'f997c817-0695-4e70-87df-3e9e9e04649a' 
 // this Client ID was created at the Step 2.11. 
-OUTLOOK_APP_CLIENT_ID = '00000000-0000-0000-0000-000000000000';
+OUTLOOK_APP_CLIENT_ID = '00000000-0000-0000-0000-000000000000';  /////////  => edit here
 
 // BACKEND_URI eg : '"https://mytenant.onmicrosoft.com/TheFilesKeeper-WebAPI".
 // this URI was created at the Step 3.9.
-BACKEND_URI= "https://xxxxxxxxxxxxxxxxxxxxx.onmicrosoft.com/TheFilesKeeper-WebAPI"; 
+BACKEND_URI= "https://xxxxxxxxxxxxxxxxxxxxx.onmicrosoft.com/TheFilesKeeper-WebAPI";  /////////  => edit here
 
 // BACKEND_CLIENT_ID : Web API Sample Client ID eg : 'f997c817-0695-4e70-87df-3e9e9e04649a' 
 // This Client ID was created at the Step 3.11
-BACKEND_CLIENT_ID = '00000000-0000-0000-0000-000000000000'; 
-
+BACKEND_CLIENT_ID = '00000000-0000-0000-0000-000000000000';  /////////  => edit here
 
 //ENDPOINTS : Service api endpoints
 var ENDPOINTS = {
