@@ -9,7 +9,7 @@
 From your shell or command line:  git clone https://github.com/keeper
 
 
-### Step 2: Register the Outlook App with your Azure Active Directory tenant
+### Step 2: Register the Outlook App with your Azure AD tenant
 
 * 1.Sign in to the Azure management portal.
 * 2.Click on Active Directory in the left hand nav.
@@ -27,9 +27,9 @@ All done! Before moving on to the next step, you need to find the Client ID of y
 * 12.Find the Client ID value and copy it to the clipboard.
 
 
-### Step 3 : Register the Web Api Sample with your Azure Active Directory tenant
+### Step 3 : Register the Web Api Sample with your Azure AD tenant
 
-The same as Step 2 for the beginin :
+The same as Step 2 for sub-steps 1 to 6.
 * 7.Enter a friendly name for the application, for example "TheFilesKeeper-WebAPI", select "Web Application and/or Web API", and click next.
 * 8.For the sign-on URL, enter the base URL for the sample, which is by default  https://localhost:44318/ .
 * 9.For the App ID URI, enter  https://<your_tenant_name>/TheFilesKeeper-WebAPI, replacing  <your_tenant_name>  with the name of your Azure AD tenant.
