@@ -1,4 +1,5 @@
-Welcome
+
+This sample demonstrates how to store Office 365 Outlook file attachments on a custom Web API Storage.
 
 
 ## Prerequisite
@@ -92,3 +93,16 @@ Coming soon.
 
 
 ## About the Code
+
+
+## Licence
+Coming soon.
+
+## Ressources
+
+### Code Samples
+
+
+### Libraries
+
+
