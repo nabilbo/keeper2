@@ -4,7 +4,7 @@ This sample demonstrates how to store Office 365 Outlook file attachments on a c
 
 ## Prerequisite
 
-Getting started is simple! To run this sample you will need:
+To run this sample you will need:
 * Visual Studio 2013
 * An Azure subscription (a free trial is sufficient)
 
@@ -13,7 +13,7 @@ Every Azure subscription has an associated Azure Active Directory tenant. If you
 
 ## How To Run This Sample
 
-
+Follow Steps 1 to 4 :
 
 ### Step 1: Clone or download this repository
 From your shell or command line:  `git clone https://github.com/nabilbo/keeper.git`
