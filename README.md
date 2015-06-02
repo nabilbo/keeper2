@@ -108,10 +108,10 @@ We will only describe the Outlook App Source Code :
  * /Config.js : app configuration.
  
 ## Licence
-Coming soon.
+Microsoft Public License (MS-PL).
 
 ## Ressources
-these ressources have been used to develope theFilesKeeper :
+These ressources have been used to develop theFilesKeeper :
 
 ### Code Samples
 * [singlePageApp-DotNet](https://github.com/AzureADSamples/SinglePageApp-AngularJS-DotNet "SinglePageApp-DotNet")
