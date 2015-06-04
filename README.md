@@ -1,5 +1,5 @@
 
-This sample demonstrates how to store Outlook mail attachment files of Office 365  on a custom storage.
+This multi-tenant sample demonstrates how to store Outlook mail attachment files of Office 365  on a custom storage.
 
 This sample contains two codes sources:
 * An Office 365 Outlook App compatible with Office 2013 Client and Office Web App.
@@ -39,6 +39,7 @@ From your shell or command line:  `git clone https://github.com/nabilbo/keeper.g
 * 12. Download the Manifest file
 * 13. Edit the Manifest File to Enable the OAuth2 implicit grant : search for the  `oauth2AllowImplicitFlow`  property. You will find that it is set to  false ; change it to  true  and save the file.
 * 14. Upload the modified Manifest file.
+* 15. Turn On `Multi-tenant App`
 
 All done! Before moving on to the next step, you need to find the Client ID of your application.
 
