@@ -3,7 +3,7 @@ This sample demonstrates how to store Outlook mail attachment files of Office 36
 
 This sample contains two codes sources:
 * An Office 365 Outlook App compatible with Office 2013 Client and Office Web App.
-* An ASP.NET Web API backend used to store Outlook attachment files. The API Backend is used only as an example. It's a fake API rovided for demo purpose.
+* An ASP.NET Web API backend used to store Outlook attachment files. The API Backend is used only as an example. It's a fake API provided for demo purpose.
 
 
 ## Prerequisite
