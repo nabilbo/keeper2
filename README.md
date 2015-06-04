@@ -37,7 +37,7 @@ From your shell or command line:  `git clone https://github.com/nabilbo/keeper.g
 * 10.While still in the Azure portal, click the Configure tab of your application.
 * 11.Find the Client ID value and copy it to the clipboard.
 * 12. Download the Manifest file
-* 13. Edit the Manifest File to Enable the OAuth2 implicit grant : search for the  oauth2AllowImplicitFlow  property. You will find that it is set to  false ; change it to  true  and save the file.
+* 13. Edit the Manifest File to Enable the OAuth2 implicit grant : search for the  `oauth2AllowImplicitFlow`  property. You will find that it is set to  false ; change it to  true  and save the file.
 * 14. Upload the modified Manifest file.
 
 All done! Before moving on to the next step, you need to find the Client ID of your application.
